@@ -1,0 +1,28 @@
+.sidemenu{
+    background: #FFF;
+    padding: 15px;
+    position: fixed;
+    top: 56px;
+    right: 0;
+    height: calc(100% - 56px);
+    width: 300px;
+    z-index: 2;
+    box-shadow: -4px 3px 5px #ccc;
+}
+.sidemenu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.sidemenu ul li{
+    padding: 15px 0;
+    border-bottom: 1px #e8e8e8 solid;
+    font-size: 14px;
+    color: #333333;
+}
+.sidemenu ul li a{
+    font-size: 14px;
+    color: #333333;
+}
